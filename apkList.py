@@ -10,6 +10,7 @@ bash_command = "sudo apt install "
 
 apk_to_install.append("python3-pip")
 apk_to_install.append("ipython3")
+apk_to_install.append("awscli")
 apk_to_install.append("git")
 apk_to_install.append("openssh-client")
 
