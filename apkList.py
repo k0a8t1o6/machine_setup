@@ -34,5 +34,18 @@ for apk in apk_on_pip:
     print("--------------------------------------------------")
 
 
+# programs require snap
+apk_on_snap = []
+command_snap = "snap install"
+
+apk_on_snap.append("vlc")
+apk_on_snap.append("pycharm-professional --classic")
+
+for apk in apk_on_snap:
+    print("commence installing an apk -----------------------")
+    os.system(command_snap + apk)
+    print("--------------------------------------------------")
+
+
 print("complete installing multiple programs")
 
